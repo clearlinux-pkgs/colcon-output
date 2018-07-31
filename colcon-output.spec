@@ -4,7 +4,7 @@
 #
 Name     : colcon-output
 Version  : 0.2.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/38/ef/76bd921117e8ae8677fc5ad9a788bf014c2d8efd79e368e5bfe85455e35b/colcon-output-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/38/ef/76bd921117e8ae8677fc5ad9a788bf014c2d8efd79e368e5bfe85455e35b/colcon-output-0.2.0.tar.gz
 Summary  : Extension for colcon to customize the output in various ways.
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: colcon-output-python3
 Requires: colcon-output-python
+Requires: colcon-core
 BuildRequires : buildreq-distutils3
 
 %description
@@ -43,7 +44,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980801
+export SOURCE_DATE_EPOCH=1533002640
 python3 setup.py build -b py3
 
 %install
