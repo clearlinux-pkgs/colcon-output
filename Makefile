@@ -1,5 +1,5 @@
 PKG_NAME := colcon-output
-URL = https://files.pythonhosted.org/packages/d2/3f/90578a9463d5af5160292f036f147bd316278577399958db77eb179cee78/colcon-output-0.2.3.tar.gz
+URL = https://files.pythonhosted.org/packages/ec/74/3bba7207ab9a8fae552f0e8148fc3bc5a987331fe1145da917e75ef2eca3/colcon-output-0.2.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
