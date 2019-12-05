@@ -4,7 +4,7 @@
 #
 Name     : colcon-output
 Version  : 0.2.6
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/13/9e/9d018479da2e34668c79e03ae889c850634a2ffaad44ccfcb47ba9499824/colcon-output-0.2.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/13/9e/9d018479da2e34668c79e03ae889c850634a2ffaad44ccfcb47ba9499824/colcon-output-0.2.6.tar.gz
 Summary  : Extension for colcon to customize the output in various ways.
