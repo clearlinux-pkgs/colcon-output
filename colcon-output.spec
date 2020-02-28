@@ -4,7 +4,7 @@
 #
 Name     : colcon-output
 Version  : 0.2.7
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/dc/4b/166e4a03a957afd8a760ffa6d65e8c73fc36ceae59ee3f1a0c5a8daabd7c/colcon-output-0.2.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/dc/4b/166e4a03a957afd8a760ffa6d65e8c73fc36ceae59ee3f1a0c5a8daabd7c/colcon-output-0.2.7.tar.gz
 Summary  : Extension for colcon to customize the output in various ways.
@@ -19,6 +19,7 @@ BuildRequires : colcon-core
 %description
 colcon-output
 =============
+
 An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to customize the output in various ways.
 
 %package python
@@ -34,6 +35,7 @@ python components for the colcon-output package.
 Summary: python3 components for the colcon-output package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-output)
 
 %description python3
 python3 components for the colcon-output package.
@@ -48,7 +50,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1576510981
+export SOURCE_DATE_EPOCH=1582909839
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
